@@ -10,7 +10,7 @@ import org.springframework.stereotype.Controller;
 import static org.junit.jupiter.api.Assertions.*;
 
 @DataJpaTest
-class PlayerRepositoryTest {
+public class PlayerRepositoryTest {
     @Autowired
     PlayerRepository playerRepository;
     boolean isInitialized = false;
